@@ -46,9 +46,8 @@ body {
     padding: 10px;
     background-color: fuchsia;
     cursor: pointer;
-    position: fixed;
     position: absolute;
-    bottom: 40px;
+    bottom: 10px;
     left: 50%;
     transform: translate(-50%);
     color: white;
