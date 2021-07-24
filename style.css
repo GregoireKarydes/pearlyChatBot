@@ -1,0 +1,89 @@
+* {
+    padding: 0;
+    margin: 0;
+    overflow-x: hidden;
+    font-family: 'Comfortaa', cursive;
+}
+
+body {
+    background: url("back.jpg");
+    background-size: cover;
+    background-repeat: repeat;
+}
+
+.title {
+    text-align: center;
+    padding: 20px;
+    color: fuchsia;
+    letter-spacing: 10px;
+    background-color:whitesmoke;
+}
+
+.container {
+    background-color: whitesmoke;
+    width: 95%;
+    height: 45vh;
+    margin: 0 auto;
+    border: 1px solid black;
+    border-radius: 1%;
+    overflow: hidden;
+}
+
+#sendIt {
+    width: 40%;
+    height: 30vh;
+    margin-top: 50px;
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%);
+    background-color: whitesmoke;
+
+}
+
+#envoyer {
+    display: block;
+    margin: 0 auto;
+    padding: 10px;
+    background-color: fuchsia;
+    cursor: pointer;
+    position: fixed;
+    position: absolute;
+    bottom: 40px;
+    left: 50%;
+    transform: translate(-50%);
+    color: white;
+    border-radius: 5px;
+    border: 0px;
+}
+
+#envoyer:hover {
+    color: black;
+}
+
+
+.message {
+    background-color: gainsboro;
+    padding: 20px;
+    padding-bottom: 0px;
+    border : 1 px solid black;
+}
+
+#date {
+    font-weight: 100;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+#pearly {
+    width: 4%;
+    position: relative;
+    bottom: 60px;
+    z-index: 2;
+    float: right;
+    border-radius: 50%;
+}
+
+#colored {
+    background-color: fuchsia;
+    color: white;
+    font-weight: bold;
+}
